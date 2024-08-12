@@ -5,14 +5,13 @@ int add(int a, int b)
     return a + b;
 }
 
-int sub();
-
 int main()
 {
-    int sum = add(20, 40);
-    printf("sum is:%d",add);
+    int sum = sub(50, 40);
+    printf("sum is:%d\n", sum);
     return 0;
 }
+
 int sub(int a, int b)
 {
     return a - b;
