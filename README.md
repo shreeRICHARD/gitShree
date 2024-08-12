@@ -1,1 +1,1 @@
-# shree-learn
+# gitShree
