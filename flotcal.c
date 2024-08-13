@@ -16,7 +16,7 @@ float div(float x,float y);
 
 float main()
 {
-    float sum = add(20.0, 1.80);
+    float sum = add(200.0, 1.80);
     float sum1 = sub(10.30,8.10);
     float sum2 = mul(5.5,2.5);
     float sum3 = div(10.5,1.1);
