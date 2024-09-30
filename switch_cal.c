@@ -10,7 +10,7 @@ void main()
     printf("Enter the second number :");
     scanf("%f", &y);
     printf("Enter the operator :");
-    scanf("%f\n" &operator);
+    //scanf("%f\n" &operator);
 
     switch (operator){
     case '+':
