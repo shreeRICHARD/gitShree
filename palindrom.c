@@ -1,10 +1,10 @@
 #include<stdio.h>
 #include<string.h>
 
-void main(){
+void main(){                      //Error?
 
 int len,count,i=0;
-char a[10];
+char a [10];
 printf("enter palword :");
 scanf("%s",&a);
 
