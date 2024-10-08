@@ -21,4 +21,4 @@ printf("the number of digit is %d\n",count);
 }
 
 
-}
+}   
