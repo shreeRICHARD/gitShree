@@ -6,10 +6,10 @@ int add(int a, int b)
 }
 
 int suba(int a, int b);
- 
+
 void p();
- 
-int main()
+
+int main()      
 {
     int sum = suba(50, 40);
     printf("sum is:%d\n", sum);
@@ -22,6 +22,7 @@ int suba(int a, int b)
     return a - b;
 }
 
-void p(){
+void p()
+{
     printf("=================");
 }
