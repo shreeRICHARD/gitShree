@@ -1,12 +1,12 @@
 #include <stdio.h>
 #include <stdlib.h>
-void main()
+int main()
 {
 
     int *nptr;
 
-    nptr = calloc(15, sizeof(int));
-
+    nptr = calloc(15, sizeof(int));     /*s*/
+    nptr=realloc(nptr,100 *sizeof(int));
     if (nptr == NULL)
     {
         printf("can't allocate memory");
@@ -14,9 +14,9 @@ void main()
     else
     {
         printf("enter the pointer number:");
-        scanf("%d\n", nptr);
+        scanf("%d", nptr);
 
-        printf("address :%d,data:%d", *nptr, nptr);
+        printf("address :%p,data:%d\n", (void*)nptr, *nptr);
 
         free(nptr);
     }
